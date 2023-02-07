@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "308351293393",
+    "project_id": "safty-woman",
+    "storage_bucket": "safty-woman.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308351293393:android:f1446807ab6d38209af2f0",
+        "android_client_info": {
+          "package_name": "com.company.currentlocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308351293393-u22p518lb99va5qoo3n4id84umjc1uuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.currentlocation",
+            "certificate_hash": "f668807407dd1d5bee66d05a8db3af703afec416"
+          }
+        },
+        {
+          "client_id": "308351293393-67637miu3hfo2llbe56s9g7l7mnd5fms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTYKKvwRAdlZR5mO1TdsqfaPKFD5ollUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308351293393-67637miu3hfo2llbe56s9g7l7mnd5fms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

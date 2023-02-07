@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basic_login_bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_contact"
+        android:layout_width="299dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#80ED6E93"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="sans-serif"
+        android:text="Contact"
+        android:textColorLink="#fff"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        app:strokeColor="#000" />
+
+    <Button
+        android:id="@+id/bt_guardianLogin"
+        android:layout_width="299dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#EE6E94"
+        android:fontFamily="sans-serif"
+        android:text="GUARDIAN LOGIN"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <Button
+        android:id="@+id/bt_userLogin"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#EF6E95"
+        android:fontFamily="sans-serif"
+        android:text="USER LOGIN"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_guardianLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

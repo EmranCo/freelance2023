@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_guardian_login_bg"
+    tools:context=".GuardianLoginActivity">
+
+    <EditText
+        android:id="@+id/et_guardianNumberLogin"
+        android:layout_width="314dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter your phone"
+        android:inputType="phone"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_guardianName" />
+
+    <Button
+        android:id="@+id/bt_guardianOTPSend"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="#FE7170"
+        android:fontFamily="sans-serif"
+        android:text="Send OTP"
+        android:textSize="20sp"
+        android:typeface="sans"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_guardianNumberLogin" />
+
+    <EditText
+        android:id="@+id/et_enterGuardianOTP"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/activity_guardian_login_bg"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="phone"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_guardianOTPSend" />
+
+    <Button
+        android:id="@+id/bt_verifyGuardianOTP"
+        android:layout_width="177dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="Verify"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_enterGuardianOTP" />
+
+    <EditText
+        android:id="@+id/et_userPhoneNumber"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="532dp"
+        android:ems="10"
+        android:hint="Enter user phone number"
+        android:inputType="phone"
+        android:textColor="#050505"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FE7170"
+        android:fontFamily="sans-serif"
+        android:text="Ok"
+        android:textSize="20sp"
+        android:typeface="sans"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_userPhoneNumber"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et_guardianName"
+        android:layout_width="314dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
